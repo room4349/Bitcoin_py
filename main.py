@@ -226,7 +226,7 @@ fig = Figure(figsize=(8, 4), dpi=100)
 ax = fig.add_subplot(111)
 ax.set_title("Real-time Price")
 ax.set_xlabel("Time")
-ax.set_ylabel("Price (KRW)")
+ax.set_ylabel("Price (KRW)") 
 canvas = FigureCanvasTkAgg(fig, master=window)
 canvas.get_tk_widget().pack()
 
